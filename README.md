@@ -4,6 +4,8 @@ Source code for PCD-DARTS and EDD-DARTS
 ## version: pytorch 1.7.0
 
 ## NAS-BENCH-201:  
+The performance database file "NAS-Bench-201-v1_1-096897.pth" of NAS-BENCH-201 is the prerequisite.
+Please download from https://github.com/D-X-Y/NAS-Bench-201 and replace the file path in the startup script.
 `
 cd AutoDL-Projects_edd/;
 
