@@ -10,6 +10,8 @@ Please download from https://github.com/D-X-Y/NAS-Bench-201 and replace the file
 `
 cd AutoDL-Projects_edd/;
 bash ./scripts-search/algos/[DARTS-V1-100.sh|DARTS-V1-10.sh] [cifar10|cifar100] 1 -1
+`
+`
 cd AutoDL-Projects_pcd/;
 bash ./scripts-search/algos/[DARTS-V1-100.sh|DARTS-V1-10.sh] [cifar10|cifar100] 1 -1
 `
@@ -17,7 +19,9 @@ bash ./scripts-search/algos/[DARTS-V1-100.sh|DARTS-V1-10.sh] [cifar10|cifar100] 
 ## DARTS search space:  
 `
 cd PCDEDD-DARTS/;
-python train_search_cyc.py;
+python train_search_cyc.py
+`
+`
 python train_search_pl.py
 `
 
@@ -25,5 +29,7 @@ python train_search_pl.py
 `
 cd SmoothDARTS/sota/pcdedd;
 python train_search_cyc.py --search_space=[s1|s2|s3|s4]
+`
+`
 python train_search_pl.py --search_space=[s1|s2|s3|s4] 
 `
