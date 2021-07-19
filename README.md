@@ -7,11 +7,11 @@ Source code for PCD-DARTS and EDD-DARTS
 `
 cd AutoDL-Projects_edd/;
 
-bash ./scripts-search/algos/[DARTS-V1_100.sh|DARTS-V1_10.sh] [cifar10|cifar100] 1 -1
+bash ./scripts-search/algos/[DARTS-V1-100.sh|DARTS-V1-10.sh] [cifar10|cifar100] 1 -1
 
 cd AutoDL-Projects_pcd/;
 
-bash ./scripts-search/algos/[DARTS-V1_100.sh|DARTS-V1_10.sh] [cifar10|cifar100] 1 -1
+bash ./scripts-search/algos/[DARTS-V1-100.sh|DARTS-V1-10.sh] [cifar10|cifar100] 1 -1
 `
 
 ## DARTS search space:  
