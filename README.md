@@ -30,9 +30,9 @@ python train_search_pl.py
 ## S1-S4 search space:  
 `
 cd SmoothDARTS/sota/pcdedd;
-python train_search_cyc.py --search_space=[s1|s2|s3|s4]
+python train_search_cyc.py --search_space=[s1|s2|s3|s4] --decay_strength=[0.1|0.11|0.12|0.13]
 `
 
 `
-python train_search_pl.py --search_space=[s1|s2|s3|s4] 
+python train_search_pl.py --search_space=[s1|s2|s3|s4] --decay_strength=[0.12|0.24|0.48|0.96]
 `
