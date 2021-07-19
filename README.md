@@ -17,17 +17,13 @@ bash ./scripts-search/algos/[DARTS-V1-100.sh|DARTS-V1-10.sh] [cifar10|cifar100] 
 ## DARTS search space:  
 `
 cd PCDEDD-DARTS/;
-
 python train_search_cyc.py;
-
 python train_search_pl.py
 `
 
 ## S1-S4 search space:  
 `
 cd SmoothDARTS/sota/pcdedd;
-
 python train_search_cyc.py --search_space=[s1|s2|s3|s4]
-
 python train_search_pl.py --search_space=[s1|s2|s3|s4] 
 `
