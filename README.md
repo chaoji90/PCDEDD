@@ -9,11 +9,8 @@ Please download from https://github.com/D-X-Y/NAS-Bench-201 and replace the file
 
 `
 cd AutoDL-Projects_edd/;
-
 bash ./scripts-search/algos/[DARTS-V1-100.sh|DARTS-V1-10.sh] [cifar10|cifar100] 1 -1
-
 cd AutoDL-Projects_pcd/;
-
 bash ./scripts-search/algos/[DARTS-V1-100.sh|DARTS-V1-10.sh] [cifar10|cifar100] 1 -1
 `
 
