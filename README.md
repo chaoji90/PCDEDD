@@ -36,9 +36,9 @@ cd SmoothDARTS/sota/pcdedd
 `
 
 `
-python train_search_cyc.py --search_space=[s1|s2|s3|s4] --decay_strength=[0.1|0.11|0.12|0.13]
+python train_search_cyc.py --search_space=[s1|s2|s3|s4] --decay_strength=[0.1|0.11|0.12|0.13] --dataset [cifar10|cifar100|svhn]
 `
 
 `
-python train_search_pl.py --search_space=[s1|s2|s3|s4] --decay_strength=[0.12|0.24|0.48|0.96]
+python train_search_pl.py --search_space=[s1|s2|s3|s4] --decay_strength=[0.12|0.24|0.48|0.96] --dataset [cifar10|cifar100|svhn]
 `
